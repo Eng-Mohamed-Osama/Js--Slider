@@ -21,7 +21,8 @@
    .slider-container img {
     position: absolute;
     height: 100%;
-    width: 100%;
+    padding-right: 30px;
+    width: -webkit-fill-available;
     opacity: 0;
     transition: opacity 1s;
     z-index: 1
@@ -36,8 +37,8 @@
    .slider-container .slider-number {
     position: absolute;
     top: 10px;
-    left: 10px;
-    background-color: rgba(0,0,0, .6);
+    left: 20px;
+    background-color: rgb(255 0 0 / 60%);
     color: #FFF;
     padding: 5px 10px;
     font-size: 20px;
@@ -52,7 +53,7 @@
     overflow: hidden;
    }
    .current{
-       background-color: red;
+       background-color: #009688;
    }
    
    
