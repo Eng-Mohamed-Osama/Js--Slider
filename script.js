@@ -11,7 +11,7 @@ console.log(slideCont);
 // }
 var nextButton = document.getElementById('next');
 var prevButton = document.getElementById('prev');
-var currentSlide = 6;
+var currentSlide = 12;
 var slideNumberElement = document.getElementById('silder-number');
 // create the indecator buttons
 
